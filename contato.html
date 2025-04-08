@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dionísio Soft Sistemas - Fale Conosco</title>
+    <link rel="stylesheet" type="text/CSS" href="Css/Manager.css">
+</head>
+<body>
+    <!-- Adicionando o cabeçalho do site -->
+    <header>
+        <img id="logo" src="Images/logo-small.png">
+    </header>
+
+   <div id="img-topo"></div>
+   <!-- Adicionando menu de navaegação -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Nossa Empresa</a>
+        <a href="Solucoes.html">Soluções</a>
+        <a href="casos.html">Casos de sucesso</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <!-- Adicionando o miolo do site -->
+    <div id="container">
+        <h1>Fale Conosco</h1>
+
+        <form action="#" id="formulario">
+            <div id="frm-container">
+                <div id="frm-labels">
+                    <!-- Os Róulos vêm aqui -->
+                    <p><label for="frm-tipo-contato">Tipo de Contato:</label></p>
+                    <p><laber for="frm-nome">Nome:</laber></p>
+                    <p><laber for="frm-email">E-mail:</laber></p>
+                    <p><laber for="frm-telefone">Telefone:</laber></p>
+                    <p><laber>Mensagem:</laber></p>                 
+                </div>
+                <div id="frm-fields">
+                    <!-- Os campos vêm aqui -->
+                    <p>
+                        <select name="frm-tipo-contato">
+                            <option value="orcamento">Orçamento</option>
+                            <option value="pedido">Pedido de Compra</option>
+                            <option value="feedback">Críticas e Sugestões</option>
+                            <option value="outros">Outros</option>
+                        </select>
+                    </p>
+                    <p><input name="frm-nome" type="text" placeholder="Digite seu Nome" required></p>
+                    <p><input name="frm-email"type="Email" placeholder="Digite seu Email" required></p>
+                    <p><input name="frm-telefone" type="tel" placeholder="(99) 99999-0000"></p>
+                    <p>
+                        <textarea name="frm-mensagem" id="frm-mensagem" placeholder="Digite sua mensagem aqui" cols="50" rows="5"></textarea>
+                    </p>
+                </div>
+            </div>
+        </form>
+
+</div>
+
+
+    <!-- Adicionando o rodapé do site -->
+    <footer>
+        Dionísio Soft &copy; - Todos os direitos reservados
+    </footer>
+
+
+    
+</body>
+</html>
