@@ -157,23 +157,67 @@ nav {
 
         #frm-container {
             display: flex;
+
+            & select, input {
+                width: 380px;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 15px;
+            }
             
             & #frm-labels {
-                background-color: aqua;
+                
                 width: 50%;
                 text-align: right;
                 padding-right: 15px;
             }
             & #frm-fields {
-                background-color: burlywood;
+                
                 width: 50%;
                 text-align: left;
                 padding-left: 15px;
+
+                & #frm-mensagem {
+                    resize: none;
+                }
             }
             
         }
         
-        
+        #btn-enviar {
+            background-color: #22577a;
+            color: white;
+            font-size: 20px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+
+            &:hover {
+                background-color: gold;
+                color: black;
+                font-weight: bold;
+            }
+        }
+        #btn-limpar {
+            background-color: #22577a;
+            color: white;
+            font-size: 20px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+
+            &:hover {
+                background-color: gold;
+                color: black;
+                font-weight: bold;
+            }
+        }
+
+        button {
+            width: 150px;
+            margin: 0px 15px;
+        }
 
 
 
